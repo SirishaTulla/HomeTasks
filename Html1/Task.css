@@ -1,0 +1,194 @@
+*{
+   font-style:normal;
+    margin: 0;
+    padding: 0;
+}
+#text{
+    height:16%;
+    display: flex;
+    background:rgb(38, 52, 69);
+    padding: 1%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+#text ul{
+    text-decoration: none;
+    list-style: none;
+    color:black;
+    background-color: white;
+    width: 15%;
+    border-style: solid;
+    border-color:orange;
+    margin-left: auto;
+    margin-right: auto;
+}
+li.a{
+    font-size: 140.5%;
+    padding: 9px 0px 3px 0px;
+    text-align: center;
+}
+li.b{
+    font-size: 62.5%;
+    padding: 0px 0px 10px 0px;
+    text-align: center;
+}
+.z1{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.b1{
+    display: flex;
+    flex-direction: column;
+    box-flex: column;
+    color:black;
+    padding-left: 8px;
+}
+.b1 h4{
+    margin-bottom: 3%;
+}
+.b2{
+    padding: 1rem;
+    text-align: center;
+    margin-left: 5%;
+}
+.b3{
+    display: flex;
+    flex-direction: column;
+    padding-right: 8px;
+}
+.b3 h4{
+    padding-bottom: 7px;
+    
+}
+.b3 .mail{
+    display: flex;
+}
+.b3 .submit{
+    background-color: black;
+    color: white;
+    position: relative;
+    right: 5px;
+}
+.blog{
+    width: 81%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}
+.a1 {
+    display: flex;
+    width:100%;
+    padding-left:2%;
+}
+img{
+    width:53%;
+    height:100%;
+    margin-left:40%;
+}
+.image{ 
+    width: 20%;
+}
+.description{
+    width:60%;
+    margin-left:2%;
+}
+.content{
+    text-align: justify;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+.d2{
+    background-color: orangered;
+    color:white;
+    padding:0.5%;
+}  
+.card .blog{
+    width: 72%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    margin-left: 10%;
+}  
+.footer{
+    padding:1%;
+    background:rgb(38, 52, 69);
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.footer p{
+    text-align: center;
+    font-size: small;
+}
+#email{
+    padding: 5px;
+    border-radius: 1rem;
+}
+.submit{
+    padding: 5px;
+}
+.d1{
+    font-size: small;
+}
+.f1{
+    width: 100%;
+     padding: 5px;
+}
+@media screen and (max-width: 553px){
+    #text ul{
+        width: 50%;
+        font-size: medium; 
+    }
+    .z1{
+        flex-direction: column;
+    }
+    .main2{
+        padding: 0.5rem;
+    }
+    .b3 h4{
+        text-align: center;
+    } 
+    .a1{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+    }
+    .description{
+        padding-right: 1rem;
+    }
+    .a1 .img1{
+        position: relative;
+        right: 76px;
+        height: 100px;
+        width: auto;
+    }
+    .a1 .img2{
+        position: relative;
+        right: 80px;
+        height: 100px;
+        width: auto;
+    }
+    .blog{
+        width: 80%;
+        margin-top: 1.5%;
+        margin-bottom: 1.5%;
+        margin-left: 10%;
+    }
+    .a1 .img3{
+        position: relative;
+        right: 75px;
+        height: 100px;
+        width: auto;
+    }
+    .card {
+        width: 80%;
+        margin-top: 1.5%;
+        margin-bottom: 1.5%;
+        margin-left: 10%;
+    }  
+}
