@@ -1,11 +1,11 @@
 function cache(func) 
 {
-  let a = {};
+  let arg1 = {};
   return function () 
   {
-    let b = JSON.stringify(arguments);
-    if (b in a) 
-      return a[b];
-    return a[b] = func.apply(null, arguments);
+    let arg2 = JSON.stringify(arguments);
+    if (arg2 in arg1) 
+      return arg1[arg2];
+    return arg1[arg2] = func.apply(null, arguments);
   };
 }
