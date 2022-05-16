@@ -1,0 +1,11 @@
+function cache(func) 
+{
+  let a = {};
+  return function () 
+  {
+    let b = JSON.stringify(arguments);
+    if (b in a) 
+      return a[b];
+    return a[b] = func.apply(null, arguments);
+  };
+}
