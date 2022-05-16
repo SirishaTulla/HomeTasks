@@ -1,0 +1,7 @@
+function add(n){
+  let val = function (a) {   
+    return add(n + a);
+  };
+  val.valueOf = () => n;  
+  return val;
+}
