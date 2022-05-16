@@ -5,11 +5,11 @@ function getMiddle(s)
   }
   if (s.length > 2) {
     if (s.length % 2 === 0) {
-      var middleIndex1 = (s.length/2)-1
-      var middleIndex2 = s.length/2
+      let middleIndex1 = (s.length/2)-1
+      let middleIndex2 = s.length/2
       return s[middleIndex1] + s[middleIndex2]
     } else {
-      var middleIndex = Math.floor(s.length/2)
+      let middleIndex = Math.floor(s.length/2)
       return s[middleIndex]
     }
   }
