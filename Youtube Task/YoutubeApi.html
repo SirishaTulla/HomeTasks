@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="YoutubeApi.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel = "icon" href = "https://vkbesttricks.com/wp-content/uploads/2021/06/Vanced-PNG.png"  type = "image/x-icon">
+    <link rel="stylesheet" href="YoutubeApi.css" />
+  </head>
+  <body>
+    <br />
+    <br />
+    <div id="search">
+      <div class="set"><img src="https://pngimg.com/uploads/youtube/youtube_PNG102356.png" id="you_img" /></div>
+      <input placeholder="Search" type="search" id="search_value" />
+      <button id="btn" onclick="renderSearch()">
+        <i
+          class="fa fa-search"
+          style="font-size: 23px; color: rgb(14, 13, 13); background-color: red"
+        ></i>
+      </button>
+    </div>
+    <div class="result" id="resultDiv"></div>
+    <div class="buttons"><div class="page"></div></div>
+
+    <script src="YoutubeApi.js"></script>
+  </body>
+</html>
