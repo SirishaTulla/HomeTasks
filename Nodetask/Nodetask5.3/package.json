@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "node": "^18.4.0"
+  },
+  "name": "nodetasks5.3",
+  "version": "1.0.0",
+  "main": "RouteController.js",
+  "scripts": {
+    "start": "SET PORT=6300 && nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "sirisha",
+  "license": "ISC",
+  "description": "Nodetask"
+}
